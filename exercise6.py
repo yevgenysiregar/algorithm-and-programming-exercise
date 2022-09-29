@@ -1,3 +1,4 @@
+#Exercise 06
 #Instruction for overall program
 print("Please input the following price per item:")
 
