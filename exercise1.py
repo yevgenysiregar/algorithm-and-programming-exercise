@@ -9,7 +9,7 @@ totalTips = float(input("Enter the amount of tips(%): "))
 
 #formula for bill per person and tips per person
 totalBillPerPerson = ((((billAmount * totalTips) / 100) + billAmount) / totalPerson)
-tipsPerPerson = totalTips /5 totalPerson
+tipsPerPerson = totalTips /5 * totalPerson
 
 #print output
 print(f"Total bill per person(USD): {totalBillPerPerson}")
