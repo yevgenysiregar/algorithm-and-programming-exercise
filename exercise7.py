@@ -7,16 +7,16 @@ for i, word in enumerate(words):
         words[i] = words[i] + "yay"
     else:
 
-        has_vowel = False
+        hasVowel = False
 
         for j, letter in enumerate(word):
             if letter in 'aeiou':
                 words[i] = word[j:] + word[:j] + "ay"
-                has_vowel = True
+                hasVowel = True
                 break
 
-        if (has_vowel == False):
+        if (hasVowel == False):
             words[i] = word[j:] + word[:j] + "ay"
 
-pig_latin = ' '.join(words)
-print("Pig Latin: ", pig_latin)
+pigLatin = ' '.join(words)
+print("Pig Latin Sentence: ", pigLatin)
